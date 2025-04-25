@@ -1,0 +1,146 @@
+{
+  "Programming Languages": {
+    "total_skills": 1753,
+    "unique_skills": 21,
+    "skills": {
+      "C/C++": 263,
+      "PostgreSQL": 203,
+      "SQL": 202,
+      "PHP": 190,
+      "JavaScript": 168,
+      "MySQL": 131,
+      "Python": 126,
+      "Java": 101,
+      "MS SQL": 81,
+      "TypeScript": 80,
+      "Go": 76,
+      "MongoDB": 35,
+      "Kotlin": 35,
+      "Delphi": 22,
+      "Swift": 17,
+      "Sqlalchemy": 8,
+      "Sqlite": 7,
+      "Уверенное владение современным delphi": 3,
+      "Borland delphi": 2,
+      "Google docs": 2
+    }
+  },
+  "Tools": {
+    "total_skills": 875,
+    "unique_skills": 18,
+    "skills": {
+      "Git": 305,
+      "Linux": 156,
+      "Docker": 97,
+      "Redis": 49,
+      "Kafka": 39,
+      "VSCode": 35,
+      "Xml": 34,
+      "CI/CD": 32,
+      "Windows": 22,
+      "Json": 22,
+      "Oracle": 22,
+      "Stl": 22,
+      "Arm": 21,
+      "JSON API": 8,
+      "Geojson": 3,
+      "Микроконтроллеров семейств arm cortex mx": 3,
+      "Buildroot yocto tcp/ip bmc arm cortex системное программирование": 3,
+      "Arm-микроконтроллеры": 2
+    }
+  },
+  "Web Dev": {
+    "total_skills": 708,
+    "unique_skills": 16,
+    "skills": {
+      "HTML": 146,
+      "CSS": 121,
+      "React": 78,
+      "REST API": 71,
+      "Vue.js": 48,
+      "Node.js": 47,
+      "Jquery": 41,
+      "Rest": 36,
+      "Angular": 35,
+      "Веб-программирование": 26,
+      "Fastapi": 20,
+      "Redux": 17,
+      "Ajax": 16,
+      "Crestron": 3,
+      "State management (redux, mobx, effector и др.)": 2,
+      "Restful": 1
+    }
+  },
+  "Databases": {
+    "total_skills": 104,
+    "unique_skills": 2,
+    "skills": {
+      "Базы данных": 62,
+      "Работа с базами данных": 42
+    }
+  },
+  "Frameworks": {
+    "total_skills": 1120,
+    "unique_skills": 26,
+    "skills": {
+      "1C": 624,
+      "Ray": 133,
+      "Qt": 52,
+      "Laravel": 51,
+      ".NET": 50,
+      "Scada": 40,
+      "Codesys": 31,
+      "Kubernetes": 27,
+      "Symfony": 22,
+      "Битрикс24": 21,
+      "Ethernet": 19,
+      "Spring boot": 13,
+      "Bacnet": 6,
+      "Spring": 4,
+      "Ethernet, sdh/pdh, ddr.": 3,
+      "Spring data": 3,
+      "Dma, ddr, ethernet": 3,
+      "Spring cloud": 3,
+      "Cms netcat": 2,
+      "Masterscada": 2
+    }
+  },
+  "Software Engineering": {
+    "total_skills": 538,
+    "unique_skills": 19,
+    "skills": {
+      "ООП": 71,
+      "Автоматизация процессов": 67,
+      "Асу тп": 58,
+      "Оптимизация кода": 50,
+      "Техническая поддержка": 48,
+      "Разработка технических заданий": 36,
+      "Системная интеграция": 29,
+      "Скд": 27,
+      "Erp": 23,
+      "Информационные технологии": 22,
+      "Рефакторинг кода": 21,
+      "Solid": 21,
+      "Конфигурационное тестирование": 20,
+      "Алгоритмы и структуры данных": 18,
+      "Пуско-наладочные работы": 16,
+      "Ескд": 4,
+      "Solidworks": 3,
+      "Powerpc": 2,
+      "Solidity": 2
+    }
+  },
+  "Soft Skills": {
+    "total_skills": 353,
+    "unique_skills": 7,
+    "skills": {
+      "Английский язык": 172,
+      "Работа в команде": 52,
+      "Бухгалтерский учет": 38,
+      "Работа с большим объемом информации": 30,
+      "Ответственность": 25,
+      "Обучение и развитие": 20,
+      "Работа в условиях многозадачности": 16
+    }
+  }
+}

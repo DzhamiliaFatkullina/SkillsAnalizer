@@ -1,0 +1,143 @@
+[
+    {
+        "skills": [
+            "CSS",
+            "HTML"
+        ],
+        "count": 112
+    },
+    {
+        "skills": [
+            "MySQL",
+            "PHP"
+        ],
+        "count": 99
+    },
+    {
+        "skills": [
+            "C/C++",
+            "Linux"
+        ],
+        "count": 96
+    },
+    {
+        "skills": [
+            "Git",
+            "PHP"
+        ],
+        "count": 82
+    },
+    {
+        "skills": [
+            "PostgreSQL",
+            "SQL"
+        ],
+        "count": 81
+    },
+    {
+        "skills": [
+            "C/C++",
+            "Git"
+        ],
+        "count": 80
+    },
+    {
+        "skills": [
+            "Git",
+            "PostgreSQL"
+        ],
+        "count": 77
+    },
+    {
+        "skills": [
+            "HTML",
+            "JavaScript"
+        ],
+        "count": 75
+    },
+    {
+        "skills": [
+            "CSS",
+            "JavaScript"
+        ],
+        "count": 72
+    },
+    {
+        "skills": [
+            "Git",
+            "JavaScript"
+        ],
+        "count": 70
+    },
+    {
+        "skills": [
+            "Git",
+            "MySQL"
+        ],
+        "count": 67
+    },
+    {
+        "skills": [
+            "CSS",
+            "HTML",
+            "JavaScript"
+        ],
+        "count": 66
+    },
+    {
+        "skills": [
+            "1C",
+            "Автоматизация процессов"
+        ],
+        "count": 65
+    },
+    {
+        "skills": [
+            "Git",
+            "Linux"
+        ],
+        "count": 64
+    },
+    {
+        "skills": [
+            "Git",
+            "SQL"
+        ],
+        "count": 64
+    },
+    {
+        "skills": [
+            "HTML",
+            "PHP"
+        ],
+        "count": 60
+    },
+    {
+        "skills": [
+            "C/C++",
+            "Английский язык"
+        ],
+        "count": 58
+    },
+    {
+        "skills": [
+            "Git",
+            "HTML"
+        ],
+        "count": 55
+    },
+    {
+        "skills": [
+            "Git",
+            "Английский язык"
+        ],
+        "count": 54
+    },
+    {
+        "skills": [
+            "JavaScript",
+            "PHP"
+        ],
+        "count": 53
+    }
+]

@@ -1,0 +1,324 @@
+{
+  "top_20_skills": [
+    {
+      "skill": "1C",
+      "count": 2205
+    },
+    {
+      "skill": "Git",
+      "count": 350
+    },
+    {
+      "skill": "C/C++",
+      "count": 299
+    },
+    {
+      "skill": "SQL",
+      "count": 214
+    },
+    {
+      "skill": "PHP",
+      "count": 205
+    },
+    {
+      "skill": "PostgreSQL",
+      "count": 204
+    },
+    {
+      "skill": "Английский язык",
+      "count": 188
+    },
+    {
+      "skill": "JavaScript",
+      "count": 168
+    },
+    {
+      "skill": "Linux",
+      "count": 164
+    },
+    {
+      "skill": "Ray",
+      "count": 164
+    },
+    {
+      "skill": "HTML",
+      "count": 157
+    },
+    {
+      "skill": "MySQL",
+      "count": 131
+    },
+    {
+      "skill": "Python",
+      "count": 127
+    },
+    {
+      "skill": "CSS",
+      "count": 124
+    },
+    {
+      "skill": "Java",
+      "count": 109
+    },
+    {
+      "skill": "Docker",
+      "count": 103
+    },
+    {
+      "skill": "MS SQL",
+      "count": 88
+    },
+    {
+      "skill": "Go",
+      "count": 87
+    },
+    {
+      "skill": ".NET",
+      "count": 81
+    },
+    {
+      "skill": "TypeScript",
+      "count": 80
+    },
+    {
+      "skill": "React",
+      "count": 80
+    },
+    {
+      "skill": "REST API",
+      "count": 71
+    },
+    {
+      "skill": "ООП",
+      "count": 71
+    },
+    {
+      "skill": "Автоматизация процессов",
+      "count": 67
+    },
+    {
+      "skill": "Базы данных",
+      "count": 64
+    },
+    {
+      "skill": "Разработка по",
+      "count": 63
+    },
+    {
+      "skill": "Асу тп",
+      "count": 58
+    },
+    {
+      "skill": "Qt",
+      "count": 57
+    },
+    {
+      "skill": "Работа в команде",
+      "count": 52
+    },
+    {
+      "skill": "Laravel",
+      "count": 51
+    },
+    {
+      "skill": "Оптимизация кода",
+      "count": 50
+    },
+    {
+      "skill": "Vue.js",
+      "count": 50
+    },
+    {
+      "skill": "Redis",
+      "count": 49
+    },
+    {
+      "skill": "Техническая поддержка",
+      "count": 48
+    },
+    {
+      "skill": "Node.js",
+      "count": 47
+    },
+    {
+      "skill": "Работа с базами данных",
+      "count": 42
+    },
+    {
+      "skill": "Jquery",
+      "count": 41
+    },
+    {
+      "skill": "Scada",
+      "count": 40
+    },
+    {
+      "skill": "Kafka",
+      "count": 40
+    },
+    {
+      "skill": "Бухгалтерский учет",
+      "count": 39
+    },
+    {
+      "skill": "Разработка технических заданий",
+      "count": 36
+    },
+    {
+      "skill": "Rest",
+      "count": 36
+    },
+    {
+      "skill": "VSCode",
+      "count": 35
+    },
+    {
+      "skill": "MongoDB",
+      "count": 35
+    },
+    {
+      "skill": "Kotlin",
+      "count": 35
+    },
+    {
+      "skill": "Angular",
+      "count": 35
+    },
+    {
+      "skill": "Xml",
+      "count": 34
+    },
+    {
+      "skill": "Oracle",
+      "count": 33
+    },
+    {
+      "skill": "Api",
+      "count": 32
+    },
+    {
+      "skill": "CI/CD",
+      "count": 32
+    },
+    {
+      "skill": "Codesys",
+      "count": 31
+    },
+    {
+      "skill": "Работа с большим объемом информации",
+      "count": 30
+    },
+    {
+      "skill": "Системная интеграция",
+      "count": 29
+    },
+    {
+      "skill": "Скд",
+      "count": 27
+    },
+    {
+      "skill": "Kubernetes",
+      "count": 27
+    },
+    {
+      "skill": "Веб-программирование",
+      "count": 26
+    },
+    {
+      "skill": "Ответственность",
+      "count": 26
+    },
+    {
+      "skill": "Windows",
+      "count": 25
+    },
+    {
+      "skill": "Android",
+      "count": 24
+    },
+    {
+      "skill": "Erp",
+      "count": 23
+    },
+    {
+      "skill": "Delphi",
+      "count": 22
+    },
+    {
+      "skill": "Json",
+      "count": 22
+    },
+    {
+      "skill": "Stl",
+      "count": 22
+    },
+    {
+      "skill": "Информационные технологии",
+      "count": 22
+    },
+    {
+      "skill": "Symfony",
+      "count": 22
+    },
+    {
+      "skill": "Рефакторинг кода",
+      "count": 21
+    },
+    {
+      "skill": "Solid",
+      "count": 21
+    },
+    {
+      "skill": "Битрикс24",
+      "count": 21
+    },
+    {
+      "skill": "Ios",
+      "count": 21
+    },
+    {
+      "skill": "Arm",
+      "count": 21
+    },
+    {
+      "skill": "Конфигурационное тестирование",
+      "count": 20
+    },
+    {
+      "skill": "Fastapi",
+      "count": 20
+    },
+    {
+      "skill": "Обучение и развитие",
+      "count": 20
+    },
+    {
+      "skill": "Ethernet",
+      "count": 19
+    },
+    {
+      "skill": "Алгоритмы и структуры данных",
+      "count": 18
+    },
+    {
+      "skill": "Redux",
+      "count": 17
+    },
+    {
+      "skill": "Swift",
+      "count": 17
+    },
+    {
+      "skill": "Ajax",
+      "count": 16
+    },
+    {
+      "skill": "Пуско-наладочные работы",
+      "count": 16
+    },
+    {
+      "skill": "Работа в условиях многозадачности",
+      "count": 16
+    }
+  ]
+}
