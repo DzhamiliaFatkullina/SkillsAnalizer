@@ -31,8 +31,8 @@ View live demo:
 
 ### Option 2: Local Setup
 ```bash
-git clone https://github.com/yourusername/skills-insight-dashboard.git
-cd skills-insight-dashboard
+git clone https://github.com/DzhamiliaFatkullina/SkillsAnalizer.git
+cd SkillsAnalizer
 python -m http.server 8000
 ```
 
