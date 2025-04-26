@@ -1,14 +1,11 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // Load data from JSON files
     Promise.all([
         fetch('top_skills.json').then(res => res.json()),
         fetch('skills_by_category.json').then(res => res.json()),
         fetch('filtered_pairings.json').then(res => res.json())
     ]).then(([topSkillsData, skillsByCategoryData, skillPairings]) => {
-        // Transform data to match expected formats
         const topSkills = topSkillsData.top_20_skills;
-        
-        // Transform skills by category to include both names and counts
+    
         const skillsByCategory = {};
         for (const category in skillsByCategoryData) {
             skillsByCategory[category] = {
@@ -19,7 +16,6 @@ document.addEventListener('DOMContentLoaded', function() {
             };
         }
         
-        // Initialize dashboard with all pairings (including those with 3 skills)
         initDashboard(topSkills, skillsByCategory, skillPairings);
     }).catch(error => {
         console.error('Error loading data:', error);
@@ -40,10 +36,14 @@ function initDashboard(topSkills, skillsByCategory, skillPairings) {
     const citiesCovered = 3; // Moscow, Kazan, St. Petersburg
     const jobPostingsAnalyzed = 2400;
     
+    const allUniqueSkills = new Set();
+    
     for (const category in skillsByCategory) {
-        totalUniqueSkills += skillsByCategory[category].unique_skills;
         totalSkillMentions += skillsByCategory[category].total_skills;
+        skillsByCategory[category].skills.forEach(skill => allUniqueSkills.add(skill));
     }
+    
+    totalUniqueSkills = allUniqueSkills.size;
     
     // Update the info banner statistics
     document.querySelector('.stat-item:nth-child(1) .stat-value').textContent = jobPostingsAnalyzed.toLocaleString();
@@ -51,19 +51,6 @@ function initDashboard(topSkills, skillsByCategory, skillPairings) {
     document.querySelector('.stat-item:nth-child(3) .stat-value').textContent = totalUniqueSkills.toLocaleString();
     document.querySelector('.stat-item:nth-child(4) .stat-value').textContent = totalSkillMentions.toLocaleString();
 
-    // Calculate and display totals in the dashboard
-    let totalSkills = 0;
-    let uniqueSkills = new Set();
-    
-    for (const category in skillsByCategory) {
-        totalSkills += skillsByCategory[category].total_skills;
-        skillsByCategory[category].skills.forEach(skill => uniqueSkills.add(skill));
-    }
-    
-    document.getElementById('total-skills').textContent = totalSkills.toLocaleString();
-    document.getElementById('unique-skills').textContent = uniqueSkills.size.toLocaleString();
-    
-    // Create charts with error handling
     try {
         createTopSkillsChart(topSkills.slice(0, 20)); // Only show top 20 skills
         createCategoryChart(skillsByCategory);
@@ -410,9 +397,6 @@ function createPairingsChart(data) {
         .attr('font-size', d => Math.min(16, Math.sqrt(d.value)*1.2)) // Larger text
         .attr('font-weight', '600')
         .attr('fill', '#000') // Black text
-        // .attr('stroke', 'rgba(255,255,255,0.7)')
-        // .attr('stroke-width', '2px')
-        // .attr('paint-order', 'stroke')
         .text(d => d.id)
         .append('title')
         .text(d => d.id); // Full name in tooltip
