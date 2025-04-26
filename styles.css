@@ -271,3 +271,79 @@ body {
     color: var(--primary-color);
     margin-bottom: 0.5rem;
 }
+
+/* Add to your existing styles.css */
+.header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header-links {
+    margin-top: 1rem;
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.header-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease;
+}
+
+.header-links a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: translateY(-2px);
+}
+
+.header-links i {
+    font-size: 1.1rem;
+}
+
+.data-source-description {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #444;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.highlight-stat {
+    background-color: rgba(67, 97, 238, 0.15);
+    padding: 0.2rem 0.4rem;
+    border-radius: 4px;
+    font-weight: 600;
+    color: #4361ee;
+}
+
+.highlight-role {
+    background-color: rgba(247, 37, 133, 0.15);
+    padding: 0.2rem 0.4rem;
+    border-radius: 4px;
+    font-weight: 600;
+    color: #f72585;
+    font-style: italic;
+}
+
+.source-link {
+    color: #4361ee;
+    font-weight: 600;
+    text-decoration: none;
+    border-bottom: 1px dashed rgba(67, 97, 238, 0.3);
+    transition: all 0.2s ease;
+}
+
+.source-link:hover {
+    color: #3a0ca3;
+    border-bottom-color: #3a0ca3;
+}
