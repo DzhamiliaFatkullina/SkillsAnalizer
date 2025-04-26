@@ -34,4 +34,6 @@ View live demo:
 git clone https://github.com/yourusername/skills-insight-dashboard.git
 cd skills-insight-dashboard
 python -m http.server 8000
+```
+
 Open: http://localhost:8000
