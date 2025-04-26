@@ -27,7 +27,7 @@ Analyzes **2,400 programming job postings** from [hh.ru](https://hh.ru) in:
 
 ### Option 1: GitHub Pages
 View live demo:  
-[https://yourusername.github.io/repo-name](https://yourusername.github.io/repo-name)
+[https://dzhamiliafatkullina.github.io/SkillsAnalizer/](https://dzhamiliafatkullina.github.io/SkillsAnalizer/)
 
 ### Option 2: Local Setup
 ```bash
